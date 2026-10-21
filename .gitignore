@@ -1,0 +1,31 @@
+# Flutter build output
+build/
+
+# Dart/Flutter artifacts
+.flutter-plugins
+.flutter-plugins.env
+.dart_tool/
+.dart_tool_global/
+
+# IDE specific
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+
+# MacOS
+.DS_Store
+
+# Android studio specific
+/local.gradle
+/.gradle/
+
+# Keystore (nunca commitar)
+*.jks
+*.keystore
+passwords.env
+
+# Secrets
+*.env
+
+# Local config
+assets/rules/glicemia_rules_v1.json

@@ -1,0 +1,68 @@
+name: glicoare
+description: App de controle glicemico para pacientes com diabetes.
+publish_to: 'none'
+version: 1.0.0+1
+build_number: 1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Estado
+  flutter_riverpod: ^2.4.0
+  go_router: ^13.2.0
+
+  # Banco local offline-first
+  drift: ^2.18.0
+  sqlite3_flutter_libs: ^0.5.5
+
+  # Graficos
+  fl_chart: ^0.68.0
+
+  # Notificacoes e lembretes
+  flutter_local_notifications: ^16.1.0
+  timezone: ^0.9.0
+
+  # PDF e impressao
+  pdf: ^3.11.0
+  printing: ^5.14.0
+
+  # Animacoes
+  lottie: ^2.7.0
+
+  # Fontes
+  google_fonts: ^5.1.0
+
+  # Internacionalizacao
+  intl: ^0.18.0
+
+  # Material Design 3
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+
+  assets:
+    assets/rules/glicemia_rules_v1.json
+    assets/illustrations/
+    assets/lottie/
