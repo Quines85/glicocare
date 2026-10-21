@@ -192,4 +192,30 @@ final ThemeData darkTheme = ThemeData(
   ),
   iconTheme: const IconThemeData(color: Colors.white70),
   dividerTheme: const DividerThemeData(color: Color(0xFF333333), space: 8),
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ElevatedButton.styleFrom(
+      minimumSize: const Size(double.infinity, 56),
+      textStyle: const TextStyle(fontSize: 16),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+    ),
+  ),
+  outlinedButtonTheme: OutlinedButtonThemeData(
+    style: OutlinedButton.styleFrom(
+      minimumSize: const Size(double.infinity, 56),
+      textStyle: const TextStyle(fontSize: 16),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+    ),
+  ),
+  appBarTheme: const AppBarTheme(
+    titleTextStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+    backgroundColor: Colors.white,
+    foregroundColor: Colors.black87,
+    elevation: 0,
+  ),
+  cardTheme: CardTheme(
+    color: Colors.white,
+    elevation: 2,
+    margin: const EdgeInsets.all(8),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+  ),
 );
