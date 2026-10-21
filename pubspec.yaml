@@ -64,6 +64,6 @@ flutter:
         - asset: assets/fonts/Poppins/Poppins-Bold.ttf
 
   assets:
-    assets/rules/glicemia_rules_v1.json
-    assets/illustrations/
-    assets/lottie/
+    - assets/rules/glicemia_rules_v1.json
+    - assets/illustrations/
+    - assets/lottie/
