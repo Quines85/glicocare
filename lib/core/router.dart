@@ -8,7 +8,6 @@ import 'package:glicoare/features/history/presentation/history_screen.dart';
 import 'package:glicoare/features/settings/presentation/settings_screen.dart';
 
 /// Roteador central usando go_router.
-/// Todas as rotas são definidas aqui para manter o navegação consistente.
 class AppRouter {
   final GoRouter router = GoRouter(
     routes: [
